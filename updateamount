@@ -1,4 +1,4 @@
-```Java
+```java
 String updateAmount(int kc, String amt) {
   if (kc == 8) {
     return "0.00";
