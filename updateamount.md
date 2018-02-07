@@ -1,8 +1,9 @@
 ```java
+
 String updateAmount(int kc, String amt) {
   if (kc == 8) {
     return "0.00";
-  } else {
+  } else if (kc != ENTER) {
     String[] arr = amt.split("");
     StringList numList = new StringList();
     for (int i = 0; i < arr.length; i++) {
